@@ -3,7 +3,7 @@
 ;para a execução do programa. Digite e execute o programa abaixo e, em seguida responda:
 
 ;• Qual a função do registrador CL? Explique porque ele foi inicializado com o valor C0.
-	;R = 
+	;R = Ele é usado como um contador, um loop. Ele deixa o endereço atual na memória de vídeo onde um caractere da cadeia "BRASIL" será escrito.
 
 ;• Qual a função do registrador DL ? Explique porque ele foi inicializado com o valor 10.
 	;R = 
@@ -26,4 +26,4 @@ PROX: 	MOV AL,[DL]
 	INC DL
 	DEC BL
 	JNZ PROX
-	END
+END
